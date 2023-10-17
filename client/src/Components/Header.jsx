@@ -8,11 +8,10 @@ const Header = () => {
     <Box
       sx={{
         backgroundColor: "whitesmoke",
-        border: "1px dashed red",
         width: "100dvw",
         height: 125,
         display: "flex",
-        justifyContent: "flex-end",
+        justifyContent: "space-between",
         alignItems: "center",
       }}
     >
@@ -20,6 +19,8 @@ const Header = () => {
         sx={{
           color: "black",
           fontSize: 50,
+          flex: 1,
+          textAlign: "center",
         }}
       >
         My Web App
@@ -28,7 +29,7 @@ const Header = () => {
         sx={{
           color: "black",
           fontSize: 45,
-          m: 5,
+          marginRight: 10,
         }}
       />
     </Box>
@@ -36,3 +37,5 @@ const Header = () => {
 };
 
 export default Header;
+
+// This is a header component. I have everything spaced out how I like it when I make a project.
