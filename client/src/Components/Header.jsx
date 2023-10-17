@@ -21,6 +21,7 @@ const Header = () => {
           fontSize: 50,
           flex: 1,
           textAlign: "center",
+          marginLeft: 5,
         }}
       >
         My Web App
@@ -29,7 +30,7 @@ const Header = () => {
         sx={{
           color: "black",
           fontSize: 45,
-          marginRight: 10,
+          marginRight: 5,
         }}
       />
     </Box>
